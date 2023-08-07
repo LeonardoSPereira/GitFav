@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export class GithubUser {
     static search(username) {
         const endpoint = `https://api.github.com/users/${username}`;
@@ -14,6 +15,23 @@ export class GithubUser {
             }
           ) )
     }
+=======
+export class GithubUser {
+    static search(username) {
+        const endpoint = `https://api.github.com/users/${username}`;
+
+        return fetch(endpoint)
+         .then(data => data.json())
+          .then(({login, name, public_repos, followers}) =>(
+            {
+            login,
+            name,
+            public_repos,
+            followers
+            }
+          ) )
+    }
+>>>>>>> e231833fb1d35be174b05e011c3ca1fdd5d7170e
 =======
 export class GithubUser {
     static search(username) {
