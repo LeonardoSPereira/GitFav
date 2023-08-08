@@ -4,7 +4,9 @@ Projeto feito durante o explorer da Rocketseat
 <h2>🚀Tecnologias usadas</h2>
 <li>HTML</li>
 <li>CSS</li>
-<li>JavaScript</li></br>
+<li>JavaScript - ES6, heranças, classes, API</li></br>
+<li>Git</li>
+<li>GitHub</li>
 
 Link para o projeto no [Figma](https://www.figma.com/file/SzQA07HwmSPj4hOYgu1Pps/%5BDesafios-Explorer%5D-GitFav/duplicate)
 
